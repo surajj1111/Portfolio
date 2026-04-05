@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suraj's Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script>
+        function scrollToProjects() {
+    document.getElementById("projects").scrollIntoView({
+        behavior: "smooth"
+    });
+}
+    </script>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Studies</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Recent Work</a></li>
+            <li><a href="#">Get In Touch</a></li>
+        </ul>
+
+        <div class="social-icons">
+    <a href="https://www.linkedin.com/in/suraj-patil-679a38262/"><i class="fab fa-linkedin-in"></i></a>
+    <a href="#"><i class="fab fa-behance"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+</div>
+    </div>
+</nav>
+<section class="hero">
+    <div class="hero-container">
+
+        <div class="hero-text">
+            <h1>Suraj Patil</h1>
+            <p>"I am an aspiring Software Engineer with a strong foundation in Java, Spring Boot, and full-stack web development. I enjoy building clean, user-friendly applications and solving real-world problems through code. I have hands-on experience in developing projects using technologies like React, Node.js, and MongoDB, along with backend systems using .NET and Spring Boot. I am continuously learning and improving my skills to become a better developer and contribute effectively to real-world applications."</p>
+            <button onclick="scrollToProjects()">View Projects</button>
+        </div>
+
+        <div class="hero-image">
+            <img src="images/1766552043384.jpg" alt="profile">
+        </div>
+
+    </div>
+</section>
+
+<section id="projects" class="projects">
+    <h2>My Projects</h2>
+
+    <div class="project-container">
+
+        <div class="project-card">
+            <h3>NextHome</h3>
+            <p>"NextHome is a PG rental management system designed to simplify the process of finding and managing rental accommodations. It allows users to browse available PGs, view detailed property information, and manage bookings efficiently. The system also provides features for property owners to list and manage their properties. It is built using .NET and Spring Boot, ensuring a scalable and structured backend."</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Artisano</h3>
+            <p>"Artisano is a full-stack e-commerce platform designed to support and promote handmade products by connecting artisans directly with customers. The platform allows users to explore a wide variety of unique handcrafted items, view detailed product descriptions, and interact seamlessly with sellers. It also provides dedicated features for artisans to list their products, manage inventory, and handle orders efficiently. The application focuses on delivering a clean and user-friendly interface, ensuring a smooth browsing and purchasing experience. Built using React for the frontend and Node.js, Express, and MongoDB for the backend, Artisano follows a scalable architecture and demonstrates strong full-stack development capabilities."</p>
+        </div>
+
+    </div>
+</section>
+<section class="contact">
+    <h2>Thank You</h2>
+    <p>Thank you for visiting my portfolio. I am always open to new opportunities and collaborations.</p>
+   <a href="mailto:surajpatil13993@email.com">surajpatil13993@email.com</a>
+</section>
+</body>
+</html>

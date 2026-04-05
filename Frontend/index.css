@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(17, 15, 9);
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+/* Container */
+.nav-container {
+    width: 80%;
+    background: rgb(148, 142, 142);
+    padding: 15px 30px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffffff;
+}
+
+/* Social */
+.social-icons a {
+    margin-left: 15px;
+    color: #aaa;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #00ff88;
+}
+.hero {
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Left text */
+.hero-text h1 {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    color: #aaa;
+    margin-bottom: 20px;
+    max-width: 400px;
+}
+
+.hero-text button {
+    padding: 16px 35px;
+    background: #00ff88;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 250px;
+    font-weight: bold;
+}
+
+/* Right image */
+.hero-image img {
+    width: 250px;
+    border-radius: 50%;
+}
+
+.projects {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.projects h2 {
+    color: white;
+    margin-bottom: 40px;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 30px;
+}
+
+.project-card {
+    background: #1a1a1a;
+    padding: 40px;
+    border-radius: 10px;
+    width: 600px;
+    color: #aaa;
+    transition: 0.3s;
+}
+
+/* .project-card:hover {
+    transform: translateY(-10px);
+    color: white;
+} */
+
+
+.contact {
+    padding: 60px 0;
+    text-align: center;
+    color: #aaa;
+}
+
+.contact h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    margin-bottom: 10px;
+}
+.contact, .mail-btn{
+    padding: 10px;
+    margin:  10px;
+}
